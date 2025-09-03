@@ -26,27 +26,34 @@
     </nav>
   </div>
 </header>
-
-
-
- <section>
+<section>
   <h2>ติดต่อเรา</h2>
-  <p>โทร: 095-638-0017</p>
-  <p>ไลน์: @balangdesign</p>
-  <p>อีเมล: banlangdesign.construction@gmail.com</p>
-  <p>ที่อยู่: 43/2 ม.7 ต.ขุนศรี อ.ไทรน้อย จ.นนทบุรี 11150</p>
 
   <h3>แบบฟอร์มสอบถาม</h3>
   <form name="contact" method="POST" data-netlify="true" class="contact-form">
-    <label for="name">ชื่อของคุณ:</label>
-    <input type="text" id="name" name="name" required>
+    <label for="firstname">ชื่อ:</label>
+    <input type="text" id="firstname" name="firstname" required>
+
+    <label for="lastname">นามสกุล:</label>
+    <input type="text" id="lastname" name="lastname" required>
 
     <label for="email">อีเมล:</label>
     <input type="email" id="email" name="email" required>
 
-    <label for="message">ข้อความ:</label>
+    <label for="subject">หัวข้อ:</label>
+    <input type="text" id="subject" name="subject" required>
+
+    <label for="message">เนื้อหา:</label>
     <textarea id="message" name="message" rows="5" required></textarea>
 
     <button type="submit">ส่งข้อความ</button>
   </form>
+
+  <div class="contact-info">
+    <h3>ข้อมูลการติดต่อ</h3>
+    <p>โทร: 095-638-0017</p>
+    <p>ไลน์: @balangdesign</p>
+    <p>อีเมล: banlangdesign.construction@gmail.com</p>
+    <p>ที่อยู่: 43/2 ม.7 ต.ขุนศรี อ.ไทรน้อย จ.นนทบุรี 11150</p>
+  </div>
 </section>
