@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://banlangdesignandconstruction.netlify.app/sitemap.xml
+Sitemap: https://banlang.netlify.app/sitemap.xml
