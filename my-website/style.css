@@ -306,4 +306,34 @@ footer {
   width: 50%;
   padding-left: 20px;
 }
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin-top: 20px;
+}
+.contact-form label {
+  margin: 5px 0;
+  font-weight: bold;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.contact-form button {
+  background: #1a3c54;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.contact-form button:hover {
+  background: #2a5c7c;
+}
+
 
