@@ -183,7 +183,12 @@ nav a.active::after {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 25px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;   /* ให้การ์ดชิดซ้าย */
+  padding-right: 0;  /* ให้การ์ดชิดขวา */
 }
+
 .service-card {
   background: #fff;
   border-radius: 12px;
@@ -227,6 +232,7 @@ nav a.active::after {
   line-height: 1.6;
   margin-top: 8px;
 }
+
 
 
 /* STATS */
@@ -406,3 +412,4 @@ button:hover {
 .social-icon:hover {
   transform: scale(1.1);
 }
+
