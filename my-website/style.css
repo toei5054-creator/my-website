@@ -431,6 +431,16 @@ section.portfolio-section {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   text-align: center;
 }
+/* ใช้กับ section portfolio */
+#portfolio {
+  padding: 60px 40px;  /* เพิ่ม padding ซ้าย-ขวา = 40px */
+  margin: 40px auto;
+  max-width: 1200px;   /* กำหนดความกว้างสูงสุด */
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
 
 
 
