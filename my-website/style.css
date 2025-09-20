@@ -412,4 +412,14 @@ button:hover {
 .social-icon:hover {
   transform: scale(1.1);
 }
+/* ใช้เฉพาะหน้า "ผลงาน" */
+.portfolio-section {
+  padding: 60px 0;       /* ซ้าย-ขวา = 0, บน-ล่างยังมี */
+  margin: 40px auto;
+  max-width: 1100px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
 
